@@ -1,0 +1,20 @@
+.button-style {
+    display: flex;
+    width: 200px;
+    height: 30px;
+    border-radius: 5px;
+    background-color: cornflowerblue;
+}
+
+.button-style:hover {
+    transform: scale(1.1);
+}
+
+.button__txt-style {
+    margin-top: 4px;
+}
+
+.button__icon-style {
+    margin-top: 4px;
+    margin-left: 5px;
+}

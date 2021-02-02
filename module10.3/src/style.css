@@ -1,0 +1,57 @@
+.enter-message {
+    border: 3px solid green;
+    border-radius: 5px;
+    width: 300px;
+}
+
+.button {
+    border: 3px solid green;
+    border-radius: 5px;
+    width: 100px;
+}
+
+.button:focus {
+    outline: none;
+}
+
+.button:hover {
+    background-color: chartreuse;
+}
+
+.user-message {
+    float: right;
+    margin-right: 5px;
+}
+
+.bot-message {
+    float: left;
+    margin-left: 5px;
+}
+
+.message-style {
+    display: flex;
+    flex-direction: column;
+    white-space: normal;
+
+    border: 2px solid green;
+    border-radius: 5px;
+    width: auto;
+    max-width: 150px;
+    min-height: 10px;
+    height: auto;
+
+    word-wrap: break-word;
+}
+
+.chat {
+    display: flex;
+    flex-direction: column;
+
+    appearance: none;
+    border: 5px solid green;
+    border-radius: 10px;
+    width: 510px;
+    min-height: 300px;
+    height: auto;
+    margin-top: 10px;
+}
